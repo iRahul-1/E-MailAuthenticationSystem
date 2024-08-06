@@ -18,7 +18,6 @@ public class App
         s.setMarks(65);
         StudentService ss = ctx.getBean("ser",StudentService.class);
         ss.addStudentResult(s);
-        StudentDataSave sd =ctx.getBean("fu",StudentDataSave.class);
         Student s1 = ctx.getBean("s",Student.class);
         s1.setId(102);
         s1.setName("zoro");

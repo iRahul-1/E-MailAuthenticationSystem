@@ -12,7 +12,6 @@ import lombok.ToString;
 @ToString
 @Component("s")
 @Scope("prototype")
-
 public class Student {
    private int id;
    private String name;
